@@ -9,8 +9,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 @ExtendWith(MockitoExtension.class)
 public class ControllerTest {
 
-    @InjectMocks
-    Controller controller;
+    Controller controller = new Controller();
 
     @Test
     public void getString() {
