@@ -28,7 +28,7 @@ jobs:
           command: mvn test
       # Run codecov
       - run:
-          name: Upload to CodeCov
+          name: startingCobertura
           command: mvn cobertura:cobertura
       - run:
           name: Upload to CodeCov
